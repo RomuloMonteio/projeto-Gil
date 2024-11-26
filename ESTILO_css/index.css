@@ -1,8 +1,6 @@
-
-
 #Home{
     background-image: url(https://www.designi.com.br/images/preview/10894398.jpg);
-    height: 94svh;
+    height: calc(100vh - 56px);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +42,7 @@ footer{
     #Home{
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: calc(100vh - 56px);
     }
     #fundo{
         height: 100vh;
