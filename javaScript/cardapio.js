@@ -3,9 +3,8 @@
 
     let a = document.getElementById("produtos").textContent = 0
     let b = document.getElementById("quantidades").textContent = 0
-    let c = document.getElementById("total").textContent = 0
+    let c = document.getElementById("total").textContent = 0.0
     
-    return a,b,c
 }
 
 function validar() {

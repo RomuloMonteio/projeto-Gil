@@ -24,20 +24,24 @@ div#texto{
     text-align: center;
 }
 button{
-    color: white;
-    border-radius: 15px;
-    background-color: transparent;
-    border: 1px solid white;
-    transition: 1s;
+    background-color: rgb(219, 219, 219);
+    color: chocolate;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin: 10px;
+    transition: .5s;
 }
+button:hover{
+    background-color: chocolate;
+    color: white;
+}
+
 footer{
     position: absolute;
     bottom: 10px;
     color: white;
 }
-
-
-
 @media screen and (max-width:441px) {
     #Home{
         background-size: cover;
