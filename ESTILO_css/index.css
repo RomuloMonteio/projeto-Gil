@@ -1,0 +1,52 @@
+
+
+#Home{
+    background-image: url(https://www.designi.com.br/images/preview/10894398.jpg);
+    height: 94svh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fundo{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    font-size: 25pt;
+}
+div#texto{
+    width: 100%;
+    text-align: center;
+}
+button{
+    color: white;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 1s;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+
+
+@media screen and (max-width:441px) {
+    #Home{
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    #fundo{
+        height: 100vh;
+    }
+}
