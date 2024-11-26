@@ -1,9 +1,11 @@
 ﻿function limpar() {
     console.log("CALL: limpar()");
 
-    let a = document.getElementById("produtos").innerHTML ='0.0';
-    let b = document.getElementById("quantidades").innerHTML = '0.0';
-    let c = document.getElementById("total").innerHTML = "0.00";
+    let a = document.getElementById("produtos").textContent = 0
+    let b = document.getElementById("quantidades").textContent = 0
+    let c = document.getElementById("total").textContent = 0
+    
+    return a,b,c
 }
 
 function validar() {

@@ -1,7 +1,5 @@
 ﻿/* TODO: escrever o código em falta aqui... */
 
-
-
 #row1{
     text-align: center;
     width: 100%;
@@ -11,5 +9,13 @@ div.col-md-3{
     margin-bottom: 15px;
 }
 img{
-    height: 360px;
+    width: 1000px;
+    height: 400px;
+}
+@media screen and (max-width:441px){
+img{
+    height: 200px;
+    width: 356px;
+}
+
 }
